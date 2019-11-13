@@ -1,0 +1,17 @@
+{
+  "name": "alfred-google-translate",
+  "version": "0.0.1",
+  "description": "alfred google translate tool",
+  "main": "index.js",
+  "repository": "git@github.com:shaodahong/alfred-google-translate.git",
+  "author": "shao <darryshaw@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "dependencies": {
+    "alfy": "^0.9.1",
+    "qs": "^6.9.1"
+  }
+}
